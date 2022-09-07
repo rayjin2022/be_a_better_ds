@@ -2,6 +2,7 @@
 This repo is a collection of public resources to help you to grab technical skills in data science fields through practical projects.
 
 Currently, this repo includes topics of:
+
 1. **Data Wrangling Scenarios** - Data Analysis: basic pandas queries that helps quickly answer business problems
 2. **Regression Scenarios** - Demand Forecasting: projects using Random Forest, Time Series, and Regression Techniques to predict future demand/sales based on historical data
 3. **Model Interpretation** - Shapley value: helps identify feature importance and to what extend each feature is affecting final prediction
@@ -9,6 +10,15 @@ Currently, this repo includes topics of:
 5. **(WIP) Recommender System**
 
 Ready? Let's have fun with real-world data challenges!
+
+## Navigator
+| Topic | Project Desription |
+| --- | --- | 
+| Demand Forecasting | [Bike demand forecast based on features such as timing and weather indicators](https://github.com/rayjin2022/ds_playground/tree/main/Demand%20Forecasting/bike%20demand%20forecasting) |
+| Demand Forecasting | [Item-level demand forecasting for different stores based on trend only](https://github.com/rayjin2022/ds_playground/tree/main/Demand%20Forecasting/store%20item%20demand%20forecasting) |
+| Data Analysis | [Lego Data - basic pandas manipulation](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/lego%20analysis%20with%20pandas) |
+| Data Analysis | [Order Data - pandas manipulation + ployly html reports](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/sales%20analysis%20with%20plotly) |
+| Model Interpretation | [Boston house price - shapley value of features affecting house prices](https://github.com/rayjin2022/ds_playground/tree/main/Model%20Interpretation%20-%20Shap%20Value)|
 
 ## Demand Forecasting
 It's one of the most classic scenario of how regression models solving real-world requests. The companies need a scientific way to anticipate future sales, thus avoid issues including but not limit to:
@@ -42,7 +52,7 @@ The following datasets and solutions are included regarding this topic:
 
 ## References
 
-| Topic | Project Desription | Link | Note |
-| --- | --- | --- | --- |
-| Data Analysis | Lego Analysis | [Link](https://www.youtube.com/watch?v=eMOA1pPVUc4&list=PLuLGxuyYdOaItQD3Cy9ClPs8vCBGb2N2f&index=2) | [Corresponding Code](https://github.com/KeithGalli/Pandas-Data-Science-Tasks)|
-| Model Interpretation | Ad's Marginal Contribution | [Link](https://www.youtube.com/watch?v=u7Om2joZWYs) | Examples to explain equation of calculating shap value|
+| Topic | Project Desription | Note |
+| --- | --- | --- |
+| Data Analysis | [Lego Analysis](https://www.youtube.com/watch?v=eMOA1pPVUc4&list=PLuLGxuyYdOaItQD3Cy9ClPs8vCBGb2N2f&index=2) | [Corresponding Code](https://github.com/KeithGalli/Pandas-Data-Science-Tasks)|
+| Model Interpretation | [Ad's Marginal Contribution](https://www.youtube.com/watch?v=u7Om2joZWYs) | Examples to explain equation of calculating shap value|
