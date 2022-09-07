@@ -32,6 +32,19 @@ The following datasets and solutions are included regarding this topic:
 
 - [Item-level demand forecasting for different stores based on trend only](https://github.com/rayjin2022/ds_playground/tree/main/Demand%20Forecasting/store%20item%20demand%20forecasting)
 
+#### Internal Best practices
+1. [Demand Forecasting for a Sports Apparel Company](https://drive.google.com/drive/u/0/folders/1eGp8G2CUZjyLDJPXAwTwRoQzZquSZSOx)
+    
+    Differentiators:
+    - Applied models that works best for short, mid, and long-term demand forecasting 
+    - Reconstructed data for anomaly periods
+
+2. [Demand Planning for a Retail & Wholeselling Company](https://drive.google.com/drive/u/0/folders/1SlJPyE2ojEvUDQo0EBrXOe5AbA0GU8kK)
+
+    Differentiators:
+    - Considered external factors such as holidays, temperature
+    - Models were generated for 1500 loops for each SKU each week before finding an optimum
+    
 ## Data Analysis
 Not all projects requires Machine Learning, but definitely requireds Data Analysis.
 
@@ -52,6 +65,9 @@ The following datasets and solutions are included regarding this topic:
 
 ## References
 
-| Topic | Project Desription | Note |
-| --- | --- | --- |
-| Model Interpretation | [Ad's Marginal Contribution](https://www.youtube.com/watch?v=u7Om2joZWYs) | Examples to explain equation of calculating shap value|
+| Topic | Author | Project Desription | Note |
+| --- | --- | --- | --- |
+| Data Analysis | [Joao Correia](https://github.com/joaolcorreia) | [RFM Analysis](https://github.com/joaolcorreia/RFM-analysis) | Simple way to quick segment customers based on Recency, Frequency, and Monetory 
+| Data Analysis | [Keith Galli](https://github.com/KeithGalli) | [Lego Data Analysis](https://github.com/KeithGalli/lego-analysis) | How to conduct basic pandas manipulation |
+| Model Interpretation | [Vytautas Bielinskas](https://www.linkedin.com/in/bielinskas/) | [Shap Value of Ad's](https://www.youtube.com/watch?v=u7Om2joZWYs) | Examples to explain equation of calculating shap value|
+| Model Interpretation | [Ajay Halthor](https://github.com/ajhalthor) | [Shap Value of features in Boston House Prices dataset](https://github.com/ajhalthor/model-interpretability/blob/main/Shap%20Values.ipynb) | Performed shap calculation and visualization on house price regression model|
