@@ -2,11 +2,11 @@
 This repo is a project created to help you to grab technical skills in data science fields through practical projects.
 
 Currently, this repo includes topics of:
-1. ** Data Wrangling Scenarios  ** - Data Analysis: basic pandas queries that helps quickly answer business problems
-- ** Regression Scenarios ** - Demand Forecasting: projects using Random Forest, Time Series, and Regression Techniques to predict future demand/sales based on historical data
--  ** Model Interpretation  ** - Shapley value: helps identify feature importance and to what extend each feature is affecting final prediction
-- ** (WIP) Classification Scenarios ** - Propensity Scoring
-- ** (WIP) Classification Scenarios ** - Recommender System
+1. **Data Wrangling Scenarios** - Data Analysis: basic pandas queries that helps quickly answer business problems
+2. **Regression Scenarios** - Demand Forecasting: projects using Random Forest, Time Series, and Regression Techniques to predict future demand/sales based on historical data
+3. **Model Interpretation** - Shapley value: helps identify feature importance and to what extend each feature is affecting final prediction
+4. **(WIP) Classification Scenarios** - Propensity Scoring
+5. **(WIP) Classification Scenarios** - Recommender System
 
 
 Ready? Let's have fun with real-world data challenges!
@@ -15,8 +15,8 @@ Ready? Let's have fun with real-world data challenges!
 It's one of the most classic scenario of how regression models solving real-world requests. The companies need a scientific way to anticipate future sales, thus avoid issues including but not limit to:
 
 1. Out-of-stock and understocking leads to lost of sales, extra refillment cost
-- Overstocking leads to cost of inventory, low turnover, and high working capital
-- Preoccupied supply team refrain from focusing on value-added work 
+2. Overstocking leads to cost of inventory, low turnover, and high working capital
+3. Preoccupied supply team refrain from focusing on value-added work 
 
 The following datasets and solutions are included regarding this topic:
 - [Bike demand forecast based on features such as timing and weather indicators](https://github.com/rayjin2022/ds_playground/tree/main/Demand%20Forecasting/bike%20demand%20forecasting)
