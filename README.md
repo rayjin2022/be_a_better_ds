@@ -1,5 +1,5 @@
 # DS Playground
-This repo is a project created to help you to grab technical skills in data science fields through practical projects.
+This repo is a collection of public resources to help you to grab technical skills in data science fields through practical projects.
 
 Currently, this repo includes topics of:
 1. **Data Wrangling Scenarios** - Data Analysis: basic pandas queries that helps quickly answer business problems
@@ -7,7 +7,6 @@ Currently, this repo includes topics of:
 3. **Model Interpretation** - Shapley value: helps identify feature importance and to what extend each feature is affecting final prediction
 4. **(WIP) Classification Scenarios** - Propensity Scoring
 5. **(WIP) Recommender System**
-
 
 Ready? Let's have fun with real-world data challenges!
 
