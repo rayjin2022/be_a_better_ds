@@ -6,7 +6,7 @@ Currently, this repo includes topics of:
 2. **Regression Scenarios** - Demand Forecasting: projects using Random Forest, Time Series, and Regression Techniques to predict future demand/sales based on historical data
 3. **Model Interpretation** - Shapley value: helps identify feature importance and to what extend each feature is affecting final prediction
 4. **(WIP) Classification Scenarios** - Propensity Scoring
-5. **(WIP) Classification Scenarios** - Recommender System
+5. **(WIP) Recommender System**
 
 
 Ready? Let's have fun with real-world data challenges!
@@ -31,15 +31,15 @@ No matter encounter with what kind of data, it's always important to first have 
 It's recommended to use pandas-profiling to quickly screen the basic condition of data, then use visualizations (histograms, box plots, scatter plots) to make deep dives on distributions and correlation among features. Crucial features are often found during EDA process, and otherwise would never be found or thought of if jumped into modelling process directly.
 
 The following datasets and solutions are included regarding this topic:
-- [Lego Data - basic pandas manipulation] link tbd
+- [Lego Data - basic pandas manipulation](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/lego%20analysis%20with%20pandas)
 
-- [Order Data - pandas manipulation + ployly html reports] link tbd
+- [Order Data - pandas manipulation + ployly html reports](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/sales%20analysis%20with%20plotly)
 
 ## Model Interpretation
 Although the main focus of ML projects is to make as much accurate predictions as possible, model interpretability, as a intermediate output, is more important than the result.
 
 The following datasets and solutions are included regarding this topic:
-- [Boston house price] link tbd
+- [Boston house price - shapley value of features affecting house prices](https://github.com/rayjin2022/ds_playground/tree/main/Model%20Interpretation%20-%20Shap%20Value)
 
 ## References
 
