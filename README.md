@@ -42,10 +42,7 @@ The following datasets and solutions are included regarding this topic:
 
 ## References
 
-### Data Analysis
-[Lego Analysis Tutorial Video](https://www.youtube.com/watch?v=eMOA1pPVUc4&list=PLuLGxuyYdOaItQD3Cy9ClPs8vCBGb2N2f&index=2) | [Corresponding code](https://github.com/KeithGalli/Pandas-Data-Science-Tasks)
-
-### Model Interpretation
-[Video tutorial on how to calculate shapley values in python](https://www.youtube.com/watch?v=IqT551LjKHw&list=PLuLGxuyYdOaItQD3Cy9ClPs8vCBGb2N2f&index=5) | [Corresponding code](https://christophm.github.io/interpretable-ml-book/shapley.html#the-shapley-value-in-detail)
-
-[Example to show how shapley values are calculated - Ad's marginal contribution ](https://www.youtube.com/watch?v=u7Om2joZWYs)
+| Topic | Project Desription | Link | Note |
+| --- | --- | --- | --- |
+| Data Analysis | Lego Analysis | [Link](https://www.youtube.com/watch?v=eMOA1pPVUc4&list=PLuLGxuyYdOaItQD3Cy9ClPs8vCBGb2N2f&index=2) | [Corresponding Code](https://github.com/KeithGalli/Pandas-Data-Science-Tasks)|
+| Model Interpretation | Ad's Marginal Contribution | [Link](https://www.youtube.com/watch?v=u7Om2joZWYs) | Examples to explain equation of calculating shap value|
