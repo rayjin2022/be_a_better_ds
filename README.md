@@ -54,5 +54,4 @@ The following datasets and solutions are included regarding this topic:
 
 | Topic | Project Desription | Note |
 | --- | --- | --- |
-| Data Analysis | [Lego Analysis](https://www.youtube.com/watch?v=eMOA1pPVUc4&list=PLuLGxuyYdOaItQD3Cy9ClPs8vCBGb2N2f&index=2) | [Corresponding Code](https://github.com/KeithGalli/Pandas-Data-Science-Tasks)|
 | Model Interpretation | [Ad's Marginal Contribution](https://www.youtube.com/watch?v=u7Om2joZWYs) | Examples to explain equation of calculating shap value|
