@@ -12,7 +12,7 @@ Currently, this repo includes topics of:
 Ready? Let's have fun with real-world data challenges!
 
 ## Quick Navigator
-| Topic | Project Desription |
+| Topic | Project |
 | --- | --- | 
 | Demand Forecasting | [Bike demand forecast based on features such as timing and weather indicators](https://github.com/rayjin2022/ds_playground/tree/main/Demand%20Forecasting/bike%20demand%20forecasting) |
 | Demand Forecasting | [Item-level demand forecasting for different stores based on trend only](https://github.com/rayjin2022/ds_playground/tree/main/Demand%20Forecasting/store%20item%20demand%20forecasting) |
