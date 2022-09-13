@@ -33,11 +33,18 @@ The following datasets and solutions are included regarding this topic:
 
 - [Item-level demand forecasting for different stores based on trend only](https://github.com/rayjin2022/ds_playground/tree/main/Demand%20Forecasting/store%20item%20demand%20forecasting)
 
-#### Experience from best practices
-1. Apply different models that works best for short, mid, and long-term demand forecasting 
-2. Reconstruct data for anomaly periods
-3. Consider external factors such as holidays, temperature
-4. Generate models for 1000+ loops for each time period in SKU-level before finding an optimum, if data & resources permitted
+#### Internal Learnings from Best practices
+1. [Demand Forecasting for a Sports Apparel Company](https://drive.google.com/drive/u/0/folders/1eGp8G2CUZjyLDJPXAwTwRoQzZquSZSOx)
+    
+    Differentiators:
+    - Applied models that works best for short, mid, and long-term demand forecasting 
+    - Reconstructed data for anomaly periods
+
+2. [Demand Planning for a Retail & Wholeselling Company](https://drive.google.com/drive/u/0/folders/1SlJPyE2ojEvUDQo0EBrXOe5AbA0GU8kK)
+
+    Differentiators:
+    - Considered external factors such as holidays, temperature
+    - Models were generated for 1500 loops for each SKU each week before finding an optimum
     
 ## Data Analysis
 Not all projects requires Machine Learning, but definitely requireds Data Analysis.
