@@ -18,6 +18,7 @@ Ready? Let's have fun with real-world data challenges!
 | Demand Forecasting | [Item-level demand forecasting for different stores based on trend only](https://github.com/rayjin2022/ds_playground/tree/main/Demand%20Forecasting/store%20item%20demand%20forecasting) |
 | Data Analysis | [Lego Data - basic pandas](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/lego%20analysis%20with%20pandas) |
 | Data Analysis | [Order Data - pandas + ployly html reports](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/sales%20analysis%20with%20plotly) |
+| Data Analysis | [Order Data - RFM Analysis](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/RFM%20analysis) |
 | Model Interpretation | [Boston house price - shapley value of features affecting house prices](https://github.com/rayjin2022/ds_playground/tree/main/Model%20Interpretation%20-%20Shap%20Value)|
 
 ## Demand Forecasting
@@ -32,18 +33,11 @@ The following datasets and solutions are included regarding this topic:
 
 - [Item-level demand forecasting for different stores based on trend only](https://github.com/rayjin2022/ds_playground/tree/main/Demand%20Forecasting/store%20item%20demand%20forecasting)
 
-#### Internal Best practices
-1. [Demand Forecasting for a Sports Apparel Company](https://drive.google.com/drive/u/0/folders/1eGp8G2CUZjyLDJPXAwTwRoQzZquSZSOx)
-    
-    Differentiators:
-    - Applied models that works best for short, mid, and long-term demand forecasting 
-    - Reconstructed data for anomaly periods
-
-2. [Demand Planning for a Retail & Wholeselling Company](https://drive.google.com/drive/u/0/folders/1SlJPyE2ojEvUDQo0EBrXOe5AbA0GU8kK)
-
-    Differentiators:
-    - Considered external factors such as holidays, temperature
-    - Models were generated for 1500 loops for each SKU each week before finding an optimum
+#### Experience from best practices
+1. Apply different models that works best for short, mid, and long-term demand forecasting 
+2. Reconstruct data for anomaly periods
+3. Consider external factors such as holidays, temperature
+4. Generate models for 1000+ loops for each time period in SKU-level before finding an optimum, if data & resources permitted
     
 ## Data Analysis
 Not all projects requires Machine Learning, but definitely requireds Data Analysis.
@@ -57,6 +51,8 @@ The following datasets and solutions are included regarding this topic:
 
 - [Order Data - pandas + ployly html reports](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/sales%20analysis%20with%20plotly)
 
+- [Order Data - RFM Analysis](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/RFM%20analysis)
+
 ## Model Interpretation
 Although the main focus of ML projects is to make as much accurate predictions as possible, model interpretability, as a intermediate output, is more important than the result.
 
@@ -64,6 +60,8 @@ The following datasets and solutions are included regarding this topic:
 - [Boston house price - shapley value of features affecting house prices](https://github.com/rayjin2022/ds_playground/tree/main/Model%20Interpretation%20-%20Shap%20Value)
 
 ## References
+
+Original links of resources in this repo are listed below:
 
 | Topic | Author | Project Desription | Note |
 | --- | --- | --- | --- |
