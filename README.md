@@ -22,9 +22,9 @@ Ready? Let's have fun with real-world data challenges!
 | Data Visualization | [Pandas + ployly html reports](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/sales%20analysis%20with%20plotly) |
 | RFM Analytics | [RFM Analysis based on order data](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/RFM%20analysis) |
 | Model Interpretation | [Boston house price - shapley value of features affecting house prices](https://github.com/rayjin2022/ds_playground/tree/main/Model%20Interpretation%20-%20Shap%20Value)|
-| Causal Inference | [Hotel Cancellation Causality Analysis using DoWhy Package](https://github.com/artefactory-apac/ds_onboarding/tree/main/Causal%20Inference/Hotel%20Cancellation%20Causality%20Analysis) |
 | Recommender System | [Content Based + Collaborative Filtering + Deep Learning](https://github.com/artefactory-apac/ds_training/tree/main/Recommender%20System/movielens-master) |
 | Classification | [In which time range would the customer made their next purchase](https://github.com/artefactory-apac/ds_training/tree/main/Classification/Next%20Purchase%20Date) |
+| Causal Inference | [Hotel Cancellation Causality Analysis using DoWhy Package](https://github.com/artefactory-apac/ds_onboarding/tree/main/Causal%20Inference/Hotel%20Cancellation%20Causality%20Analysis) |
 
 
 ## Demand Forecasting
@@ -72,6 +72,58 @@ Although the main focus of ML projects is to make as much accurate predictions a
 The following datasets and solutions are included regarding this topic:
 - [Boston house price - shapley value of features affecting house prices](https://github.com/rayjin2022/ds_playground/tree/main/Model%20Interpretation%20-%20Shap%20Value)
 
+
+## Classification Scenarios
+Methodology is quite similar to regression problems. 
+
+Currently we haven't cover a lot in this scenario.
+
+This section is waiting to be updated.
+
+Feel free to add scenarios that you feel like worth sharing :)
+
+## Recommender System
+
+Classic recommender system consists of two types: collaborative filtering and content-based filtering.
+
+![2 types](https://github.com/khanhnamle1994/movielens/raw/cb1fe40c99cdd61c3c714e501e11f699c87b0eed//images/rec-systems.png)
+
+### Content-based
+
+Advantages
+- No need for data on other users, thus no cold-start or sparsity problems.
+- Can recommend to users with unique tastes.
+- Can recommend new & unpopular items.
+- Can provide explanations for recommended items by listing content-features that caused an item to be recommended (in this case, movie genres)
+
+However, there are some cons of using this approach:
+
+- Finding the appropriate features is hard.
+- Does not recommend items outside a user's content profile.
+- Unable to exploit quality judgments of other users.
+
+### Collaborative
+
+**Advantages**
+
+1. No domain knowledge necessary
+    
+    - We don't need domain knowledge because the embeddings are automatically learned.
+2. Serendipity
+    - The model can help users discover new interests. In isolation, the ML system may not know the user is interested in a given item, but the model might still recommend it because similar users are interested in that item.
+3. Great starting point
+    - To some extent, the system needs only the feedback matrix to train a matrix factorization model. In particular, the system doesn't need contextual features. In practice, this can be used as one of multiple candidate generators.
+
+**Disadvantages**
+
+1. Cannot handle fresh items
+     - The prediction of the model for a given (user, item) pair is the dot product of the corresponding embeddings. So, if an item is not seen during training, the system can't create an embedding for it and can't query the model with this item. This issue is often called ** the cold-start problem** 
+
+2. Hard to include side features for query/item
+
+    - Side features are any features beyond the query or item ID. For movie recommendations, the side features might include country or age. Including available side features improves the quality of the model. Although it may not be easy to include side features in WALS, a generalization of WALS makes this possible.
+
+
 ## Causal Inference
 
 In our daily lives, cause & result happens everywhere. Take the following picture as an example, 'Getting up late' would definitely affect whether one would be late for schools. However, there might be other confounders having an impact on the final outcome, such as traffic accident & heavy rain. 
@@ -105,12 +157,6 @@ DoWhy would then take into account all of the complicate relationships and give 
 ![Digraph](https://github.com/rayjin2022/ds_playground/blob/main/Causal%20Inference/Hotel%20Cancellation%20Causality%20Analysis/estimate%20effect.png?raw=true)
 
 In the example above, Dowhy gives the final verdict of how much the treatment (assign a different room) would affect the outcome (whether the customer would cancel the reservation).
-
-
-## [WIP] Recommender System
-
-
-## [WIP] Classification Scenarios
 
 
 ## References
