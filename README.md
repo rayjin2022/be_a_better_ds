@@ -1,27 +1,31 @@
 # DS Playground
+
 This repo is a collection of public resources to help you to grab technical skills in data science fields through practical projects.
 
 Currently, this repo includes topics of:
 
 1. **Data Wrangling Scenarios** - Data Analysis: basic pandas queries that helps quickly answer business problems
-2. **Regression Scenarios** - Demand Forecasting: projects using Random Forest, Time Series, and Regression Techniques to predict future demand/sales based on historical data
+2. **Regression Scenarios** - Demand Forecasting: projects using Tree-based Models, Time Series, and other Regression Models to predict future demand/sales based on historical data
 3. **Model Interpretation** - Shapley value: helps identify feature importance and to what extend each feature is affecting final prediction
-4. **(WIP) Classification Scenarios** - Propensity Scoring
-5. **(WIP) Recommender System**
+4. **Classification Scenarios** - Propensity Scoring; Regression to Classification
+5. **Recommender System** - Collaborative Filtering; Content-based Recommendation
+6. **Causal Inference** - Predict and understand the causal effects of these interventions
 
 Ready? Let's have fun with real-world data challenges!
 
-## Quick Navigator
+## Project Navigator
 | Topic | Project |
 | --- | --- | 
 | Demand Forecasting | [Bike demand forecast based on features such as timing and weather indicators](https://github.com/rayjin2022/ds_playground/tree/main/Demand%20Forecasting/bike%20demand%20forecasting) |
 | Demand Forecasting | [Item-level demand forecasting for different stores based on trend only](https://github.com/rayjin2022/ds_playground/tree/main/Demand%20Forecasting/store%20item%20demand%20forecasting) |
-| Data Analysis | [Lego Data - basic pandas](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/lego%20analysis%20with%20pandas) |
-| Data Analysis | [Order Data - pandas + ployly html reports](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/sales%20analysis%20with%20plotly) |
-| Data Analysis | [Order Data - RFM Analysis](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/RFM%20analysis) |
+| Basic Pandas | [Lego Data - basic pandas](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/lego%20analysis%20with%20pandas) |
+| Data Visualization | [Pandas + ployly html reports](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/sales%20analysis%20with%20plotly) |
+| RFM Analytics | [RFM Analysis based on order data](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/RFM%20analysis) |
 | Model Interpretation | [Boston house price - shapley value of features affecting house prices](https://github.com/rayjin2022/ds_playground/tree/main/Model%20Interpretation%20-%20Shap%20Value)|
 | Causal Inference | [Hotel Cancellation Causality Analysis using DoWhy Package](https://github.com/artefactory-apac/ds_onboarding/tree/main/Causal%20Inference/Hotel%20Cancellation%20Causality%20Analysis) |
-| Recommender System | | |
+| Recommender System | [Content Based + Collaborative Filtering + Deep Learning](https://github.com/artefactory-apac/ds_training/tree/main/Recommender%20System/movielens-master) |
+| Classification | [In which time range would the customer made their next purchase](https://github.com/artefactory-apac/ds_training/tree/main/Classification/Next%20Purchase%20Date) |
+
 
 ## Demand Forecasting
 It's one of the most classic scenario of how regression models solving real-world requests. The companies need a scientific way to anticipate future sales, thus avoid issues including but not limit to:
@@ -35,7 +39,7 @@ The following datasets and solutions are included regarding this topic:
 
 - [Item-level demand forecasting for different stores based on trend only](https://github.com/rayjin2022/ds_playground/tree/main/Demand%20Forecasting/store%20item%20demand%20forecasting)
 
-#### Internal Learnings from Best practices
+#### Learnings from Internal Best practices
 1. [Demand Forecasting for a Sports Apparel Company](https://drive.google.com/drive/u/0/folders/1eGp8G2CUZjyLDJPXAwTwRoQzZquSZSOx)
     
     Differentiators:
@@ -58,9 +62,9 @@ It's recommended to use pandas-profiling to quickly screen the basic condition o
 The following datasets and solutions are included regarding this topic:
 - [Lego Data - basic pandas](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/lego%20analysis%20with%20pandas)
 
-- [Order Data - pandas + ployly html reports](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/sales%20analysis%20with%20plotly)
+- [Pandas + ployly html reports](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/sales%20analysis%20with%20plotly)
 
-- [Order Data - RFM Analysis](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/RFM%20analysis)
+- [RFM Analysis based on order data](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/RFM%20analysis)
 
 ## Model Interpretation
 Although the main focus of ML projects is to make as much accurate predictions as possible, model interpretability, as a intermediate output, is more important than the result.
@@ -70,7 +74,44 @@ The following datasets and solutions are included regarding this topic:
 
 ## Causal Inference
 
-## Recommender System
+In our daily lives, cause & result happens everywhere. Take the following picture as an example, 'Getting up late' would definitely affect whether one would be late for schools. However, there might be other confounders having an impact on the final outcome, such as traffic accident & heavy rain. 
+
+![Causal Inference Example](https://miro.medium.com/max/782/0*ck5vmdMv2ju6NIAS.jpg)
+
+Further more, there could be much more complicated obstacles: 
+- confounders might affect each other
+- confounders might be unobserved
+
+Given these into consideration, finding the true effect of 'getting up late' would be very hard.
+
+Luckily, Dr.Pengfei found a package called Dowhy that could help solve this issue.
+
+![DoWhy Steps](https://raw.githubusercontent.com/microsoft/dowhy/main/docs/images/dowhy-schematic.png)
+
+Dowhy follows a 4 steps rule to find causal inference:
+1. Model a causal problem
+2. Identify a target estimand under the model
+3. Estimate causal effect based on the identified estimand
+4. Refute the obtained estimate
+
+We would cover more details in [here](https://github.com/artefactory-apac/ds_onboarding/tree/main/Causal%20Inference/Hotel%20Cancellation%20Causality%20Analysis). Basically, we feed in the data as well as the causal relationships among all variables. 
+
+We then pointed out treatment & outcome specifically. Such relationships are visualized in a graph that looks like below: 
+
+![Digraph](/Users/artefact/Documents/git/Causal Inference/Hotel Cancellation Causality Analysis/sample digraph.png)
+
+DoWhy would then take into account all of the complicate relationships and give an output as below.
+
+![Digraph](/Users/artefact/Documents/git/Causal Inference/Hotel Cancellation Causality Analysis/estimate effect.png)
+
+In the example above, Dowhy gives the final verdict of how much the treatment (assign a different room) would affect the outcome (whether the customer would cancel the reservation).
+
+
+## [WIP] Recommender System
+
+
+## [WIP] Classification Scenarios
+
 
 ## References
 
@@ -84,3 +125,4 @@ Original links of resources in this repo are listed below:
 | Model Interpretation | [Ajay Halthor](https://github.com/ajhalthor) | [Shap Value of features affecting house price](https://github.com/ajhalthor/model-interpretability/blob/main/Shap%20Values.ipynb) | Performed shap calculation and visualization on house price regression model|
 | Causal Inference | [Siddharth Dixit](https://github.com/Sid-darthvader) | [Hotel Cancellation Causality Analysis](https://github.com/py-why/dowhy/blob/main/docs/source/example_notebooks/DoWhy-The%20Causal%20Story%20Behind%20Hotel%20Booking%20Cancellations.ipynb) | Utilize Python's DoWhy package to find causal inference on hotel cancellation |
 | Recommender System | [James Le](https://github.com/khanhnamle1994) | [Movie Recommender System](https://github.com/khanhnamle1994/movielens)| Based on MovieLens 1M dataset, Developed Recommender System include: Content-Based and Collaborative Filtering, SVD Model (Deep Learning) |
+| Classification | [Barış Karaman](https://medium.com/@karamanbk) | [In which time range would the customer made their next purchase](https://github.com/artefactory-apac/ds_training/tree/main/Classification/Next%20Purchase%20Date) | Based on UCI Online Retail Data, construct a classification model to predict in which time range would the customer make the next purchase |
