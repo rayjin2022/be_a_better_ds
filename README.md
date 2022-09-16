@@ -98,11 +98,11 @@ We would cover more details in [here](https://github.com/artefactory-apac/ds_onb
 
 We then pointed out treatment & outcome specifically. Such relationships are visualized in a graph that looks like below: 
 
-![Digraph](/Users/artefact/Documents/git/Causal Inference/Hotel Cancellation Causality Analysis/sample digraph.png)
+![Digraph](https://github.com/rayjin2022/ds_playground/blob/main/Causal%20Inference/Hotel%20Cancellation%20Causality%20Analysis/sample%20digraph.png?raw=true)
 
 DoWhy would then take into account all of the complicate relationships and give an output as below.
 
-![Digraph](/Users/artefact/Documents/git/Causal Inference/Hotel Cancellation Causality Analysis/estimate effect.png)
+![Digraph](https://github.com/rayjin2022/ds_playground/blob/main/Causal%20Inference/Hotel%20Cancellation%20Causality%20Analysis/estimate%20effect.png?raw=true)
 
 In the example above, Dowhy gives the final verdict of how much the treatment (assign a different room) would affect the outcome (whether the customer would cancel the reservation).
 
