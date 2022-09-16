@@ -90,13 +90,13 @@ Classic recommender system consists of two types: collaborative filtering and co
 
 ### Content-based
 
-Advantages
+**Advantages**
 - No need for data on other users, thus no cold-start or sparsity problems.
 - Can recommend to users with unique tastes.
 - Can recommend new & unpopular items.
 - Can provide explanations for recommended items by listing content-features that caused an item to be recommended (in this case, movie genres)
 
-However, there are some cons of using this approach:
+**Disadvantages**
 
 - Finding the appropriate features is hard.
 - Does not recommend items outside a user's content profile.
