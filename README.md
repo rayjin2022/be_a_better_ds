@@ -21,6 +21,7 @@ Ready? Let's have fun with real-world data challenges!
 | Data Analysis | [Order Data - RFM Analysis](https://github.com/rayjin2022/ds_playground/tree/main/Data%20Analysis/RFM%20analysis) |
 | Model Interpretation | [Boston house price - shapley value of features affecting house prices](https://github.com/rayjin2022/ds_playground/tree/main/Model%20Interpretation%20-%20Shap%20Value)|
 | Causal Inference | [Hotel Cancellation Causality Analysis using DoWhy Package](https://github.com/artefactory-apac/ds_onboarding/tree/main/Causal%20Inference/Hotel%20Cancellation%20Causality%20Analysis) |
+| Recommender System | | |
 
 ## Demand Forecasting
 It's one of the most classic scenario of how regression models solving real-world requests. The companies need a scientific way to anticipate future sales, thus avoid issues including but not limit to:
@@ -67,9 +68,9 @@ Although the main focus of ML projects is to make as much accurate predictions a
 The following datasets and solutions are included regarding this topic:
 - [Boston house price - shapley value of features affecting house prices](https://github.com/rayjin2022/ds_playground/tree/main/Model%20Interpretation%20-%20Shap%20Value)
 
-
 ## Causal Inference
 
+## Recommender System
 
 ## References
 
@@ -78,8 +79,8 @@ Original links of resources in this repo are listed below:
 | Topic | Author | Project Desription | Note |
 | --- | --- | --- | --- |
 | Data Analysis | [Joao Correia](https://github.com/joaolcorreia) | [RFM Analysis](https://github.com/joaolcorreia/RFM-analysis) | Simple way to quick segment customers based on Recency, Frequency, and Monetory 
-| Data Analysis | [Keith Galli](https://github.com/KeithGalli) | [Lego Data Analysis](https://github.com/KeithGalli/lego-analysis) | How to conduct basic pandas manipulation |
+| Data Analysis | [Keith Galli](https://github.com/KeithGalli) | [Lego Theme Analysis](https://github.com/KeithGalli/lego-analysis) | How to conduct basic pandas manipulation |
 | Model Interpretation | [Vytautas Bielinskas](https://www.linkedin.com/in/bielinskas/) | [Shap Value of Ad's](https://www.youtube.com/watch?v=u7Om2joZWYs) | Examples to explain equation of calculating shap value|
-| Model Interpretation | [Ajay Halthor](https://github.com/ajhalthor) | [Shap Value of features in Boston House Prices dataset](https://github.com/ajhalthor/model-interpretability/blob/main/Shap%20Values.ipynb) | Performed shap calculation and visualization on house price regression model|
-| Causal Inference | [Siddharth Dixit](https://github.com/Sid-darthvader) | [Hotel Cancellation Causality Analysis using DoWhy Package](https://github.com/py-why/dowhy/blob/main/docs/source/example_notebooks/DoWhy-The%20Causal%20Story%20Behind%20Hotel%20Booking%20Cancellations.ipynb) | Utilize Python's DoWhy package to find causal inference on hotel cancellation |
-
+| Model Interpretation | [Ajay Halthor](https://github.com/ajhalthor) | [Shap Value of features affecting house price](https://github.com/ajhalthor/model-interpretability/blob/main/Shap%20Values.ipynb) | Performed shap calculation and visualization on house price regression model|
+| Causal Inference | [Siddharth Dixit](https://github.com/Sid-darthvader) | [Hotel Cancellation Causality Analysis](https://github.com/py-why/dowhy/blob/main/docs/source/example_notebooks/DoWhy-The%20Causal%20Story%20Behind%20Hotel%20Booking%20Cancellations.ipynb) | Utilize Python's DoWhy package to find causal inference on hotel cancellation |
+| Recommender System | [James Le](https://github.com/khanhnamle1994) | [Movie Recommender System](https://github.com/khanhnamle1994/movielens)| Based on MovieLens 1M dataset, Developed Recommender System include: Content-Based and Collaborative Filtering, SVD Model (Deep Learning) |
