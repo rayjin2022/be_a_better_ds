@@ -1,4 +1,4 @@
-# Artefact Data Science Playground
+# Open-source Data Science Playground
 
 This repo is a collection of public resources to help you to grab technical skills in data science fields through practical projects.
 
